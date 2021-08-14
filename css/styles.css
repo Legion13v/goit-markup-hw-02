@@ -3,10 +3,12 @@
   --title-color: #212121;
   --hover-color: #2196f3;
   --main-text-color: #757575;
+  --btn-bcgrnd-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -18,16 +20,16 @@ body {
 .list {
   list-style-type: none;
 }
-.logo {
+.blue-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
-}
-.blue-logo {
   color: var(--hover-color);
+}
+.logo {
+  color: #000000;
 }
 .nav-link {
   font-weight: 500;
@@ -50,4 +52,91 @@ body {
 .contacts-item .link:hover,
 .contacts-item .link:focus {
   color: var(--hover-color);
+}
+.background {
+  background-color: #2f303a;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  background-color: var(--btn-bcgrnd-color);
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--hover-color);
+}
+.third-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.jobs {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.footer {
+  background-color: #2f303a;
+}
+.white-logo {
+  color: var(--white-text-color);
+}
+.footer-item .link:hover,
+.footer-item .link:focus {
+  color: var(--hover-color);
+}
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+.product-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.product {
+  font-size: 16px;
+  line-height: 1.87;
 }
