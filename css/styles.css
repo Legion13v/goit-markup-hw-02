@@ -1,0 +1,53 @@
+:root {
+  --white-text-color: #ffffff;
+  --title-color: #212121;
+  --hover-color: #2196f3;
+  --main-text-color: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.blue-logo {
+  color: var(--hover-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.nav-item .link:hover,
+.nav-item .link:focus {
+  color: var(--hover-color);
+}
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.contacts-item .link:hover,
+.contacts-item .link:focus {
+  color: var(--hover-color);
+}
