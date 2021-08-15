@@ -53,10 +53,10 @@ body {
 .contacts-item .link:focus {
   color: var(--blue-color);
 }
-.background {
+.hero {
   background-color: #2f303a;
 }
-.title {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -64,7 +64,7 @@ body {
   text-transform: uppercase;
   color: var(--white-text-color);
 }
-.btn {
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -73,12 +73,12 @@ body {
   background-color: var(--blue-color);
   cursor: pointer;
 }
-.btn:hover,
-.btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--white-text-color);
   background-color: #188ce8;
 }
-.second-btn {
+.filter-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -87,12 +87,12 @@ body {
   background-color: var(--btn-bcgrnd-color);
   cursor: pointer;
 }
-.second-btn:hover,
-.second-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--white-text-color);
   background-color: var(--blue-color);
 }
-.third-title {
+.features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -110,14 +110,14 @@ body {
 .team-section {
   background-color: #f5f4fa;
 }
-.name {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.jobs {
+.team-text {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -128,32 +128,33 @@ body {
 .white-logo {
   color: var(--white-text-color);
 }
-.footer-item .link:hover,
-.footer-item .link:focus {
+.address-item .link:hover,
+.address-item .link:focus {
   color: var(--blue-color);
 }
-.footer-link {
+.address-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-map {
+.address-map {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
-.product-name {
+.gallery-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
-.product {
+.gallery-text {
   font-size: 16px;
   line-height: 1.87;
+  color: var(--main-text-color);
 }
-.addres {
+.address {
   font-style: normal;
 }
