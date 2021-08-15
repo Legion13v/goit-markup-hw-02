@@ -8,7 +8,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -33,7 +32,6 @@ body {
 }
 .nav-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -44,7 +42,6 @@ body {
 }
 .contacts-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
@@ -94,9 +91,7 @@ body {
 }
 .features-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
 }
@@ -104,7 +99,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 .team-section {
@@ -114,13 +108,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 .team-text {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 .footer {
   background-color: #2f303a;
@@ -133,15 +125,9 @@ body {
   color: var(--blue-color);
 }
 .address-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .address-map {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
 .gallery-title {
